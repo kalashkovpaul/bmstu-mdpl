@@ -1,0 +1,9 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 000C7H 000C8H STK                STACK
+ 000D0H 00225H 00156H SEGDATA            DATA
+ 00230H 00559H 0032AH SEGCODE            CODE
+
+Program entry point at 0023:0000
+
