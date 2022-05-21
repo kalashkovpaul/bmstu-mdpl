@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat May  7 14:22:42 2022
+# Make data base, printed on Sun May 15 15:26:54 2022
 
 # Variables
 
@@ -43,17 +43,17 @@ GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/paul/masm
+CURDIR := /home/paul/masm-repo
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/95
+SNAP_DATA = /var/snap/code/96
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:40950
+JOURNAL_STREAM = 8:42699
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -77,15 +77,15 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 981
+MANAGERPID = 1002
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
-VSCODE_CWD = /home/paul
+VSCODE_CWD = /home/paul/masm-repo
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -93,17 +93,17 @@ PATH = /home/paul/.nvm/versions/node/v17.6.0/bin:/home/paul/.local/bin:/usr/loca
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/paul-BOHK-WAX9X:@/tmp/.ICE-unix/1268,unix/paul-BOHK-WAX9X:/tmp/.ICE-unix/1268
+SESSION_MANAGER = local/paul-BOHK-WAX9X:@/tmp/.ICE-unix/1342,unix/paul-BOHK-WAX9X:/tmp/.ICE-unix/1342
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/paul/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/95
+SNAP = /snap/code/96
 # environment
 NVM_BIN = /home/paul/.nvm/versions/node/v17.6.0/bin
 # environment
-SNAP_VERSION = 57fd6d01
+SNAP_VERSION = da15b6fd
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -113,9 +113,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 53dfc2a9c3a6489992d118bf678b3a20
+INVOCATION_ID = 94290a9e38c84281bddd98a3d1529882
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -133,11 +133,11 @@ VSCODE_PIPE_LOGGING = true
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-PWD = /home/paul/masm
+PWD = /home/paul/masm-repo
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1205
+SSH_AGENT_PID = 1258
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -151,7 +151,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/paul/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = /home/paul/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 LOGNAME = paul
 # environment
@@ -187,19 +187,19 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/paul/snap/code/95
+SNAP_USER_DATA = /home/paul/snap/code/96
 # environment
 SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d0d49e24-77e7-415b-b58d-672578941139.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-628a3043-528b-41a8-90a9-288926846560.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = paul
 # environment
-SNAP_REVISION = 95
+SNAP_REVISION = 96
 # environment
 LC_MONETARY = ru_RU.UTF-8
 # makefile
@@ -212,12 +212,14 @@ XDG_CURRENT_DESKTOP = Unity
 LC_TELEPHONE = ru_RU.UTF-8
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /media/paul/kalashkov/university/forthTerm
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-59fb05bf-1.67.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-59fb05bf-1.67.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -249,12 +251,11 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
- 
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/705f202a_06f4_43c5_9e7c_f0b6763549f4
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/56ef0b06_487d_465c_984c_2eb848f7239d
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.123
+GNOME_TERMINAL_SERVICE = :1.125
 # default
 SUFFIXES := 
 # environment
@@ -276,9 +277,10 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 7892
+VSCODE_PID = 10747
 # variable set hash-table stats:
-# Load=132/1024=13%, Rehash=0, Collisions=19/154=12%
+ 
+# Load=133/1024=13%, Rehash=0, Collisions=19/155=12%
 
 # Pattern-specific Variable Values
 
@@ -286,9 +288,9 @@ VSCODE_PID = 7892
 
 # Directories
 
-# . (device 66306, inode 14947051): 16 files, no impossibilities.
+# . (device 66306, inode 13765047): 18 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -338,12 +340,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 205 B / avg = 8 B
-# current buf: size = 8162 B / used = 205 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 220 B / avg = 8 B
+# current buf: size = 8162 B / used = 220 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Sat May  7 14:22:42 2022
+# Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Sun May 15 15:26:54 2022
 
  
